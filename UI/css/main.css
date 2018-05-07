@@ -1,0 +1,80 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px; 
+	background: #eeeeee;
+}
+
+.container{
+	display: flex;
+	padding: 50px;
+	min-height: 100px;
+}
+
+.form-container{
+	margin: 0 auto;
+	min-width: 40%;
+	padding: 5px;
+	border-radius: 3px;
+	background: #fff;
+	border: 1px solid #bebebe;
+	box-shadow: 1px 4px 10px #bebebe;
+}
+
+.c-header{
+	color: #363851;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.u-line{
+	margin: 0 auto;
+	border-bottom: 1px solid #d8bfd8;
+	width: 50%;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 20px
+}
+
+input{
+	margin: 5px 0;
+	border: none;
+	border-bottom: 1px solid #d8bfd8;
+	padding: 5px 5px;
+}
+input:focus{
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #d8bfd8; 
+}
+
+.input-group > p{
+	text-align: center;
+}
+
+.input-group > p > a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #363851; 
+}
+.input-group > p > a:hover{
+	border-bottom: 1px solid #d8bfd8;
+}
+
+.btn{
+	text-align: center;
+	border-radius: 100px !important;
+	background: #363851;
+	color: #bebebe;
+	font-size: 15px;
+	padding: 5px;
+}
+.btn:hover{
+	color: #fff;
+	background: #30324B;
+}
